@@ -1,8 +1,8 @@
-# DCARB Testing
+# Testing Main
 
-This repository contains all of the code you need for testing the DCARB Project or DCARB at Cowlar. It consists of automated test cases code that executes End-to-End Testing using the Cypress Javascript Library.
+This repository contains all of the code you need for testing the   Project or   at Cowlar. It consists of automated test cases code that executes End-to-End Testing using the Cypress Javascript Library.
 
-![DCARB Testing Cypress Screen](assets/img/home.png)
+![ Testing Cypress Screen](assets/img/home.png)
 
 ## Setup
 
@@ -14,13 +14,13 @@ This repository contains all of the code you need for testing the DCARB Project 
    > Make sure to clone the repository in windows if you are using `WSL` (not inside `WSL`)
 
    ```
-   git clone git@github.com:cowlar/dcarb/dcarb-testing.git
+   git clone git@github.com:cowlar/ / -testing.git
    ```
 
-1. Clone the submodule repository _(You may need to request for access of git@github.com/cowlar/dcarb/dcarb-commons)_
+1. Clone the submodule repository _(You may need to request for access of git@github.com/cowlar/ / -commons)_
 
    ```
-   cd dcarb-testing
+   cd  -testing
    git submodule update --init
    ```
 
@@ -167,7 +167,7 @@ npm run gen help
 1. Run a command in InfluxDB container to load data
 
    ```
-   docker exec  -it dcarb-influxdb2.local bash
+   docker exec  -it  -influxdb2.local bash
    ```
 
 1. (In Linux) Get read/write access to `./docker-compose/backups` folder. Run below command in `./docker-compose` folder
