@@ -160,3 +160,6 @@ Cypress.Commands.add("addtesttodevice", () => {
       });
   });
 });
+Cypress.Commands.add("verifyUrl",(url)=>{
+  cy.url().should("contain",url)
+})

@@ -30,4 +30,5 @@ beforeEach(function () {
   cy.window().then((win) => {
     win.sessionStorage.clear();
   });
+  cy.visit("/");
 });
